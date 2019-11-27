@@ -41,7 +41,7 @@ const ImageList = styled.div`
 const CustomRenovations = () => {
 	return (
 		<CustomRenovationsWrapper>
-			<Title>Custom Renvoations</Title>
+			<Title>Custom Renovations</Title>
 			<p>
 				West Coast Renovations provides planning & pre-construction services that offers the customer a chance
 				to meet with a professional designer to discuss their home renovations, their wish list, and what the
