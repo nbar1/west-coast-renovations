@@ -1,7 +1,6 @@
 import React from 'react';
 import styled, { createGlobalStyle } from 'styled-components';
 import { Switch, Route, Redirect, BrowserRouter } from 'react-router-dom';
-import ReactGA from 'react-ga';
 
 import Header from './Header';
 import Footer from './Footer';
@@ -28,8 +27,6 @@ const ContentWrapper = styled.div`
 `;
 
 function App() {
-	ReactGA.initialize('UA-39473337-2');
-
 	return (
 		<div className="App">
 			<SiteStyles />
